@@ -43,8 +43,14 @@ public class Main {
         dirArray = gimmeThatArray(readFromThisFileDir, true);
         time = System.currentTimeMillis();
         for (int i = 0; i < findArray.length; i++) {
-        	for (int j = 0; j < dirArray.length; j++) {
-        		if (findArray[i].equals(dirArray[j])) {
+//            for (int j = 0; j < dirArray.length; j++) {
+//                if (findArray[i].equals(dirArray[j])) {
+//                    foundSuc++;
+//                    break ;
+//                }
+//            }
+        	for (int j = 0, l = dirArray.length - 1; j < dirArray.length && l >= j; j++, l--) {
+        		if (findArray[i].equals(dirArray[j]) || findArray[i].equals(dirArray[l])) {
         			foundSuc++;
         			break ;
 		        }

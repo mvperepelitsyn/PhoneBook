@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cac67a5-62c1-467b-af3d-d522268539f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_mini.txt" beforeDir="false" afterPath="$PROJECT_DIR$/directory_mini.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PhoneBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579788713182</updated>
       <workItem from="1579788714548" duration="4345000" />
-      <workItem from="1579873095143" duration="7420000" />
+      <workItem from="1579873095143" duration="7954000" />
     </task>
     <servers />
   </component>
@@ -95,8 +92,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="10" />
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
