@@ -2,37 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cac67a5-62c1-467b-af3d-d522268539f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Parsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/TimeControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PhoneBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WncHkcWkA4WdxRu4zqXqCiDFUr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_perfomance/PhoneBook" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -63,6 +73,7 @@
       <updated>1579788713182</updated>
       <workItem from="1579788714548" duration="4345000" />
       <workItem from="1579873095143" duration="7954000" />
+      <workItem from="1580815076999" duration="19738000" />
     </task>
     <servers />
   </component>
@@ -82,25 +93,92 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="248" key="FileChooserDialogImpl" timestamp="1580830270860">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1580830270860" />
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1580851278704">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1580851278704" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1580851278704">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1580851278704" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1580851278704">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1580851278704" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1580851278704">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1580851278704" />
+    <state width="1237" height="322" key="GridCell.Tab.1.bottom" timestamp="1580851258245">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1580851258245" />
+    <state width="1237" height="322" key="GridCell.Tab.1.center" timestamp="1580851258245">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1580851258245" />
+    <state width="1237" height="322" key="GridCell.Tab.1.left" timestamp="1580851258245">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1580851258245" />
+    <state width="1237" height="322" key="GridCell.Tab.1.right" timestamp="1580851258245">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1580851258245" />
+    <state x="370" y="259" key="extract.method.dialog" timestamp="1580826445934">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="259" key="extract.method.dialog/0.0.1280.984@0.0.1280.984" timestamp="1580826445934" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1580826353681">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1580826353681" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>52</line>
+          <line>29</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Parsing.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Parsing.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="findCharArray[j]" language="JAVA" />
+        <watch expression="dirCharArray[l]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
