@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cac67a5-62c1-467b-af3d-d522268539f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Parsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Searches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/TimeControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PhoneBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Main.java" afterDir="false" />
@@ -11,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +84,11 @@
       <workItem from="1579873095143" duration="8327000" />
       <workItem from="1579942600035" duration="262000" />
       <workItem from="1579942886741" duration="5223000" />
+      <workItem from="1580898762140" duration="937000" />
+      <workItem from="1580901304351" duration="727000" />
+      <workItem from="1581071385530" duration="233000" />
+      <workItem from="1581072238257" duration="754000" />
+      <workItem from="1581085915412" duration="3199000" />
     </task>
     <servers />
   </component>
@@ -98,18 +113,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>64</line>
+          <line>18</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="12" />
+          <line>9</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Parsing.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
