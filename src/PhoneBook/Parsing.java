@@ -6,8 +6,15 @@ import java.util.Scanner;
 
 public class Parsing {
 
+    static String[] changeDirArray(String[] dirArray) {
+        for (int i = 0; i < dirArray.length; i++) {
+            dirArray[i] = Searches.gimmeThatName(dirArray[i]);
+        }
+        return dirArray;
+    }
+
     static File gimmeThatFile(boolean dirOrFind) {
-        File fileName = new File("");
+        File fileName = null;
         String workindDir  = System.getProperty("user.dir");
         String whatSystemIsThat = System.getProperty("os.name").split(" ")[0];
         if (whatSystemIsThat.equals("Mac")) {
@@ -16,17 +23,23 @@ public class Parsing {
             } else {
                 fileName = new File(workindDir + "/directory_orig.txt");
             }
+        } else if (whatSystemIsThat.equals("Windows")) {
+            if (dirOrFind) {
+                fileName = new File(workindDir + "\\find.txt");
+            } else {
+                fileName = new File(workindDir + "\\directory_orig.txt");
+            }
         }
         return fileName;
     }
-
+    //TODO: rewrite with ArrayList!
+    //TODO: переписать на АррейЛистах
     public static String[] gimmeThatArray(boolean dirOrFind) {
         /*
         dirOrFind = true - stands for find.txt
         dirOrFind = false - stands for  directory.txt
          */
-        String tmp = "";
-        String str = "";
+        String tmp;
         File fileName = gimmeThatFile(dirOrFind);
         String[] strArray = new String[1];
         try (Scanner scan = new Scanner(fileName)) {
@@ -42,6 +55,9 @@ public class Parsing {
             }
         } catch (FileNotFoundException e) {
             System.out.println("Error");
+        }
+        if (!dirOrFind) {
+            return changeDirArray(strArray);
         }
         return strArray;
     }

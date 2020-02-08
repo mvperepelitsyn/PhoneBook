@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cac67a5-62c1-467b-af3d-d522268539f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Parsing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Searches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/TimeControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/DiffrentTimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PhoneBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBook/Parsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Parsing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBook/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Searches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBook/TimeControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/TimeController.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="176" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,6 +31,11 @@
   </component>
   <component name="ProjectId" id="1WncHkcWkA4WdxRu4zqXqCiDFUr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,19 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="android.dex.compiler" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -89,6 +86,8 @@
       <workItem from="1581071385530" duration="233000" />
       <workItem from="1581072238257" duration="754000" />
       <workItem from="1581085915412" duration="3199000" />
+      <workItem from="1581104160939" duration="6240000" />
+      <workItem from="1581194563558" duration="10761000" />
     </task>
     <servers />
   </component>
@@ -108,25 +107,110 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581104803346">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984@0.0.1280.984" timestamp="1581104803346" />
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1581205446693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1581205446693" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1581205446693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1581205446693" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1581205446693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1581205446693" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1581205446693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1581205446693" />
+    <state width="1237" height="168" key="GridCell.Tab.1.bottom" timestamp="1581204310480">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="168" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1581204310480" />
+    <state width="1237" height="168" key="GridCell.Tab.1.center" timestamp="1581204310480">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="168" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1581204310480" />
+    <state width="1237" height="168" key="GridCell.Tab.1.left" timestamp="1581204310480">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="168" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1581204310480" />
+    <state width="1237" height="168" key="GridCell.Tab.1.right" timestamp="1581204310480">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="168" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1581204310480" />
+    <state x="141" y="135" key="SettingsEditor" timestamp="1581105191919">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1581105191919" />
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1581194631309">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1581194631309" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1581203260580">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1581203260580" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Parsing.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
           <line>18</line>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="13" />
+          <line>11</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PhoneBook/Parsing.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Searches.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Searches.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Searches.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PhoneBook/Searches.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="findArray[i]" language="JAVA" />
+        <watch expression="dirArray[currentStep]" language="JAVA" />
+        <watch expression="dirArray[l]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PhoneBook$Main.ic" NAME="Main Coverage Results" MODIFIED="1581198112303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
